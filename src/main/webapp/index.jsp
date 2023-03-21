@@ -22,7 +22,7 @@
       position: absolute;
       margin: 0;
       font-size: 40px;
-      color: #FFF;
+      color: #000;
       z-index: 2;
       }
       p.top-info {
