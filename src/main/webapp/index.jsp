@@ -39,12 +39,12 @@
       width: 100%;
       padding: 20px;
       border-radius: 6px;
-      background: #faebe7;
+      background: #FFF;
       box-shadow: 0 0 25px 0 #000;
       }
      .banner {
       position: relative;
-      height: 500px;
+      height: 200px;
       background-image: url("/uploads/media/default/0001/02/fb57ab781c34da322c884532bfec751e843e36fc.jpeg");
       background-size: cover;
       display: flex;
@@ -54,7 +54,7 @@
       }
       .banner::after {
       content: "";
-      background-color: rgba(50,255,100,0.9);
+      background-color: rgba(255,100,150,0.9);
       position: absolute;
       width: 100%;
       height: 100%;
