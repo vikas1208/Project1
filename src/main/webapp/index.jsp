@@ -44,7 +44,7 @@
       }
      .banner {
       position: relative;
-      height: 200px;
+      height: 300px;
       background-image: url("/uploads/media/default/0001/02/fb57ab781c34da322c884532bfec751e843e36fc.jpeg");
       background-size: cover;
       display: flex;
@@ -54,7 +54,7 @@
       }
       .banner::after {
       content: "";
-      background-color: rgba(255,100,150,0.9);
+      background-color: rgba(200,100,150,0.5);
       position: absolute;
       width: 100%;
       height: 100%;
