@@ -15,14 +15,14 @@
       outline: none;
       font-family: Roboto, Arial, sans-serif;
       font-size: 20px;
-      color: #000;
+      color: #FFF;
       line-height: 22px;
       }
       h1 {
       position: absolute;
       margin: 0;
       font-size: 60px;
-      color: #000;
+      color: #COCOCO;
       z-index: 2;
       }
       p.top-info {
@@ -121,7 +121,7 @@
       }
       span.required {
       margin-left: 0;
-      color: red;
+      color: #FAEBE7;
       }
       label.radio:before {
       content: "";
@@ -160,9 +160,9 @@
       padding: 10px;
       border: none;
       border-radius: 5px;
-      background: #1c87c9;
+      background: #000;
       font-size: 16px;
-      font-weight: 700;
+      font-weight: 900;
       color: #000;
       cursor: pointer;
       }
