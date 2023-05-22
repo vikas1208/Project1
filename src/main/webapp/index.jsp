@@ -9,6 +9,7 @@
       html, body {
       min-height: 100%;
       }
+      <marquee><h1>Hello world</h1></marquee>
       body, div, form, input, select, p {
       padding: 0;
       margin: 0;
