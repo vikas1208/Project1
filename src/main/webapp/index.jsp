@@ -24,7 +24,7 @@
       position: absolute;
       margin: 0;
       font-size: 60px;
-      color: #COCOCO;
+      color: #000;
       z-index: 2;
       }
       p.top-info {
@@ -56,7 +56,7 @@
       }
       .banner::after {
       content: "";
-      background-color: rgba(255,100,255,0.9);
+      background-color: rgba(0,0,0,0.9);
       position: absolute;
       width: 100%;
       height: 100%;
@@ -192,13 +192,14 @@
       }
     </style>
   </head>
-  <body bgcolor="white">
+  <body bgcolor="hotpink">
     <div class="testbox">
       <form action="/">
         <div class="banner">
           <h1>DevOps Job Application Form</h1>
         </div>
         <div align="left">
+          <h1> Hello DevOps Enthusiasts, welcome to our sessions</h1>
         <p class="top-info"><b>Thank you for your interest in working with us. <br/> Please check below for available job opportunities that meet your criteria and send your application by filling out the Job Application Form.</b></p>
         </div>
         
