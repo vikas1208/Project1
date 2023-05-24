@@ -192,7 +192,7 @@
       }
     </style>
   </head>
-  <body bgcolor="hotpink">
+  <body>
     <div class="testbox">
       <form action="/">
         <div class="banner">
