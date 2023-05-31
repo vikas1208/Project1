@@ -2,7 +2,6 @@
 <html>
 <html>
   <head>
-    <marquee><h1>DevOps Job Application Form</h1></marquee>
     <title>Project1</title>
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
@@ -196,9 +195,9 @@
     <div class="testbox">
       <form action="/">
         <div class="banner">
-          <h1>DevOps Job Application Form</h1>
+          <h1>DevOps Job Application</h1>
         </div>
-        <div align="center">
+        <div align="left">
  
         <p class="top-info"><b>Thank you for your interest in working with us. <br/> Please check below for available job opportunities that meet your criteria and send your application by filling out the Job Application Form.</b></p>
         </div>
