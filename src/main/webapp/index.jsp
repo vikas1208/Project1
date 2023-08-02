@@ -52,7 +52,7 @@
       }
       .banner::after {
       content: "";
-      background-color: lavender;
+      background-color: #FF4500;
       position: absolute;
       width: 100%;
       height: 100%;
