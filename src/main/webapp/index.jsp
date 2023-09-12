@@ -12,14 +12,14 @@
       margin: 0;
       outline: none;
       font-family: Roboto, Arial, sans-serif;
-      font-size: 15px;
+      font-size: 20px;
       color: #000;
       line-height: 22px;
       }
       h1 {
       position: absolute;
       margin: 0;
-      font-size: 60px;
+      font-size: 70px;
       color: #000;
       z-index: 2;
       }
@@ -42,7 +42,7 @@
       }
      .banner {
       position: relative;
-      height: 300px;
+      height: 400px;
       background-image: url("/uploads/media/default/0001/02/fb57ab781c34da322c884532bfec751e843e36fc.jpeg");
       background-size: cover;
       display: flex;
@@ -52,7 +52,7 @@
       }
       .banner::after {
       content: "";
-      background-color: #AABBCC
+      background-color: #aabbcc;
       position: absolute;
       width: 100%;
       height: 100%;
