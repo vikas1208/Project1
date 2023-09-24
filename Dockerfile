@@ -1,5 +1,4 @@
-FROM openjdk
-MAINTAINER ConceptualSoftware
-ADD target/devops.war /
-ENTRYPOINT ["java", "-jar", "devops.war"]
-EXPOSE 9090
+FROM tomcat
+MAINTAINER prashanth
+RUN apt update
+COPY target/devops.war /usr/local/tomcat/webapps/
