@@ -42,7 +42,7 @@
       }
      .banner {
       position: relative;
-      height: 200px;
+      height: 300px;
       background-image: url("/uploads/media/default/0001/02/fb57ab781c34da322c884532bfec751e843e36fc.jpeg");
       background-size: cover;
       display: flex;
@@ -194,12 +194,12 @@
         <div class="banner">
           <h1>DevOps Job Application Form</h1>
         </div>
-        <div align="left">
+        <div align="center">
  
         <p class="top-info"><b>Thank you for your interest in working with us. <br/> Please check below for available job opportunities that meet your criteria and send your application by filling out the Job Application Form.</b></p>
         </div>
         
-<div align="left">
+<div align="center">
 
   <p> We will get back to you shortly</p></div>
         <div class="item">
