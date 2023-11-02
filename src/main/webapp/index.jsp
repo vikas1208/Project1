@@ -12,15 +12,15 @@
       margin: 0;
       outline: none;
       font-family: Roboto, Arial, sans-serif;
-      font-size: 20px;
+      font-size: 16px;
       color: #000;
       line-height: 22px;
       }
       h1 {
       position: absolute;
       margin: 0;
-      font-size: 70px;
-      color: #000;
+      font-size: 80px;
+      color: #005;
       z-index: 2;
       }
       p.top-info {
@@ -52,7 +52,7 @@
       }
       .banner::after {
       content: "";
-      background-color: #aabbcc;
+      background-color: #aabb;
       position: absolute;
       width: 100%;
       height: 100%;
