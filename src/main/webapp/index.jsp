@@ -20,7 +20,7 @@
       position: absolute;
       margin: 0;
       font-size: 80px;
-      color: #005;
+      color: #050;
       z-index: 2;
       }
       p.top-info {
@@ -37,12 +37,12 @@
       width: 100%;
       padding: 20px;
       border-radius: 6px;
-      background: #COCOCO;
+      background: #000;
       box-shadow: 0 0 25px 0 #000;
       }
      .banner {
       position: relative;
-      height: 350px;
+      height: 700px;
       background-image: url("/uploads/media/default/0001/02/fb57ab781c34da322c884532bfec751e843e36fc.jpeg");
       background-size: cover;
       display: flex;
@@ -52,7 +52,7 @@
       }
       .banner::after {
       content: "";
-      background-color: #aab;
+      background-color: #faebe7;
       position: absolute;
       width: 100%;
       height: 100%;
