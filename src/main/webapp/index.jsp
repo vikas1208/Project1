@@ -13,7 +13,7 @@
       outline: none;
       font-family: Roboto, Arial, sans-serif;
       font-size: 16px;
-      color: #FFF;
+      color: #000;
       line-height: 22px;
       }
       h1 {
@@ -42,7 +42,7 @@
       }
      .banner {
       position: relative;
-      height: 300px;
+      height: 350px;
       background-image: url("/uploads/media/default/0001/02/fb57ab781c34da322c884532bfec751e843e36fc.jpeg");
       background-size: cover;
       display: flex;
@@ -52,7 +52,7 @@
       }
       .banner::after {
       content: "";
-      background-color: #aabb;
+      background-color: #aab;
       position: absolute;
       width: 100%;
       height: 100%;
