@@ -20,7 +20,7 @@
       position: absolute;
       margin: 0;
       font-size: 80px;
-      color: #000;
+      color: red;
       z-index: 2;
       }
       p.top-info {
@@ -52,7 +52,7 @@
       }
       .banner::after {
       content: "";
-      background-color: #faebe7;
+      background-color: steelblue;
       position: absolute;
       width: 100%;
       height: 100%;
