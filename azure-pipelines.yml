@@ -9,7 +9,6 @@ jobs:
    displayName: MyfirstJob
    steps:
    - script: echo Mynew Job
-jobs:
  - job: newJob
    displayName: newJob
    steps:
