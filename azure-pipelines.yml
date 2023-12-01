@@ -3,20 +3,9 @@ trigger: none
 
 pool:
   vmImage: ubuntu-latest
-  demands: maven
 
-steps:
-- task: Maven@3
-  displayName: 'Build the artifact'
-
-- task: CopyFiles@2
-  displayName: 'copy artifacts'
-  inputs:
-    Contents: '**/*.war'
-    TargetFolder: '$(build.artifactstagingdirectory)'
-
-- task: PublishBuildArtifacts@1
-  inputs:
-    PathtoPublish: '$(Build.BinariesDirectory)'
-    ArtifactName: Binary
-    publishLocation: 'Container'
+jobs:
+ - job: myJob
+   displayName: MyfirstJob
+   steps:
+   - script: echo Mynew Job
