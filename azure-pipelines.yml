@@ -14,3 +14,12 @@ jobs:
    steps:
    - script: echo 'hello again, welcome to shell classes'
    - script: 'date;ls;pwd;uname; whoami'
+ - job: thirdjob
+   displayName: MyNewJob3
+   steps:
+    - script: echo "this runs on the default shell on any server"
+    - bash: |
+       echo "This multi line script always runs in bash"
+       echo Even on windows machine
+    - task: Maven@1
+      displayName: 'Build the project'
