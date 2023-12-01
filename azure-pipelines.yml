@@ -9,3 +9,9 @@ jobs:
    displayName: MyfirstJob
    steps:
    - script: echo Mynew Job
+jobs:
+ - job: newJob
+   displayName: newJob
+   steps:
+   - script: echo 'hello again, welcome to shell classes'
+   - script: 'date;ls;pwd;uname; whoami'
