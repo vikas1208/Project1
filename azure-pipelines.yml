@@ -4,22 +4,9 @@ trigger: none
 pool:
   vmImage: ubuntu-latest
 
+
 jobs:
  - job: myJob
-   displayName: MyfirstJob
    steps:
-   - script: echo Mynew Job
- - job: newJob
-   displayName: newJob
-   steps:
-   - script: echo 'hello again, welcome to shell classes'
-   - script: 'date;ls;pwd;uname; whoami'
- - job: thirdjob
-   displayName: MyNewJob3
-   steps:
-    - script: echo "this runs on the default shell on any server"
-    - bash: |
-       echo "This multi line script always runs in bash"
-       echo Even on windows machine
-    - task: Maven@1
-      displayName: 'Build the project'
+   - checkout: self
+     fetchDepth: 0
