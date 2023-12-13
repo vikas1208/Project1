@@ -19,8 +19,8 @@
       h1 {
       position: absolute;
       margin: 0;
-      font-size: 90px;
-      color: red;
+      font-size: 50px;
+      color: #FFF;
       z-index: 2;
       }
       p.top-info {
@@ -52,7 +52,7 @@
       }
       .banner::after {
       content: "";
-      background-color: purple;
+      background-color: steelblue;
       position: absolute;
       width: 100%;
       height: 100%;
