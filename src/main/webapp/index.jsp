@@ -13,13 +13,13 @@
       outline: none;
       font-family: Roboto, Arial, sans-serif;
       font-size: 20px;
-      color: #000;
+      color: #007;
       line-height: 22px;
       }
       h1 {
       position: absolute;
       margin: 0;
-      font-size: 50px;
+      font-size: 70px;
       color: #FFF;
       z-index: 2;
       }
@@ -37,7 +37,7 @@
       width: 100%;
       padding: 20px;
       border-radius: 6px;
-      background: #FFF;
+      background: #FFA;
       box-shadow: 0 0 25px 0 #000;
       }
      .banner {
