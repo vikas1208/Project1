@@ -9,11 +9,11 @@
      
       body, div, form, input, select, p {
       padding: 0;
-      margin: 0;
+      margin: 0;1
       outline: none;
       font-family: Roboto, Arial, sans-serif;
-      font-size: 20px;
-      color: #007;
+      font-size: 10px;
+      color: #077;
       line-height: 22px;
       }
       h1 {
