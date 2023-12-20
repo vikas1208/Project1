@@ -9,7 +9,7 @@
      
       body, div, form, input, select, p {
       padding: 0;
-      margin: 0;1
+      margin: 0;
       outline: none;
       font-family: Roboto, Arial, sans-serif;
       font-size: 20px;
